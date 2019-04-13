@@ -7,7 +7,7 @@ Config.EnableVaultManagement      = true
 Config.EnableHelicopters          = true
 Config.EnableMoneyWash            = true
 Config.MaxInService               = -1
-Config.Locale                     = 'de'
+Config.Locale                     = 'en'
 
 Config.MissCraft                  = 10 -- %
 
