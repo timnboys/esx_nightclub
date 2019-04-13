@@ -19,17 +19,17 @@ Config.AuthorizedVehicles = {
 	{ name = 'patriot2',  label = 'Patriot Stretch-Limo' },
 }
 
-Config.Blips = {
+--Config.Blips = {
     
-    Blip = {
-      Pos     = { x = 216.95, y = -3167.86, z = 40.53 },
-      Sprite  = 136,
-      Display = 279,
-      Scale   = 1.4,
-      Colour  = 25,
-    },
+    --Blip = {
+      --Pos     = { x = 216.95, y = -3167.86, z = 40.53 },
+      --Sprite  = 136,
+      --Display = 279,
+      --Scale   = 1.4,
+      --Colour  = 25,
+    --},
 
-}
+--}
 
 Config.Zones = {
 
