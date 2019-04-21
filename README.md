@@ -15,15 +15,17 @@ FXServer ESX NIGHTCLUB JOB
 
 **IPL Pack:**
 [bob_74](https://forum.fivem.net/t/release-v2-fix-holes-in-the-map-up-to-after-hours/25240)
----------------------------------------------------------------------------------------------------------------------------------------
+
 
 **Clubaddons** working LCD, Tv Screens & Teleporter for the nightclub:
 
-**UPDATE [Nightclub Addon]:**(https://github.com/SFL-Master/FiveM_NightclubAddon)
+**UPDATE [Nightclub Addon]:**
+
+(https://github.com/SFL-Master/FiveM_NightclubAddon)
 
 You can customize the nightclub in the "nightclub.lua" 
-see: [Wiki/After-Hours:-Nightclubs](https://github.com/Bob74/bob74_ipl/wiki/After-Hours:-Nightclubs)
----------------------------------------------------------------------------------------------------------------------------------------
+[Wiki/After-Hours:-Nightclubs](https://github.com/Bob74/bob74_ipl/wiki/After-Hours:-Nightclubs)
+
 
 **Recommended:**
 [NPC Addon](https://github.com/SFL-Master/Peds) **NEW**
@@ -47,9 +49,11 @@ see: [Wiki/After-Hours:-Nightclubs](https://github.com/Bob74/bob74_ipl/wiki/Afte
     Import esx_nightclub in your database
 
     Add this in your server.cfg :
+    
 
 ```
 start esx_nightclub
+
 ```
 
     If you want player management you have to set Config.EnablePlayerManagement to true in config.lua You can config VaultManagement & Helicopters with true/false (don't forget to comment the area in the same file)
@@ -60,8 +64,8 @@ Here are examples of what you could add:
 
 esx_basicneeds\server\main.lua:
 
-
 ```
+
 ESX.RegisterUsableItem('icetea', function(source)
 
     local xPlayer = ESX.GetPlayerFromId(source)
@@ -114,11 +118,14 @@ ESX.RegisterUsableItem('jagerbomb', function(source)
     TriggerClientEvent('esx:showNotification', source, _U('used_jagerbomb'))
 
 end)
+
+
 ```
 
 **[FEATURES]**
 
-    **Nightclub job**
+    **[Nightclub Job]**
+    
         -Fully customizable job
         -Boss, Bartender, Dancer grades
         -Cloakroom, Vault, Fridge, Vehicles, BossActions
