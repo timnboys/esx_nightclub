@@ -17,17 +17,8 @@ FXServer ESX NIGHTCLUB JOB
 [bob_74](https://forum.fivem.net/t/release-v2-fix-holes-in-the-map-up-to-after-hours/25240)
 
 
-
-**UPDATE [ESX Nightclub Addon]:** (https://github.com/SFL-Master/esx_nightclubaddon)
-
-**Nightclub Addon** working LCD, Tv Screens & Teleporter for the nightclub:
-
-You can customize the nightclub in the "nightclub.lua" 
+You can customize the Nightclub in “esx_nightclub/scripts/nightclub.lua” see: 
 [Wiki/After-Hours:-Nightclubs](https://github.com/Bob74/bob74_ipl/wiki/After-Hours:-Nightclubs)
-
-
-**Recommended:**
-[NPC Addon](https://github.com/SFL-Master/Peds) **NEW**
 
 ----------------------------------------------------------------------------------------------------------------------------------------
   
