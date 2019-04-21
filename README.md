@@ -1,19 +1,22 @@
 # FiveM esx_nightclub
 
-This script is based on the "esx_unicornjob" and has been deprecated accordingly! https://github.com/LuaDeldu/esx_unicornjob
+This script is based on the "esx_unicornjob" and has been deprecated accordingly! 
+https://github.com/LuaDeldu/esx_unicornjob
 
-If the unicorn job is already used on the server, the items do NOT need to be re-imported into the database
+If the unicorn job is already used on the server, 
+the items do NOT need to be re-imported into the database
+
 
 FXServer ESX NIGHTCLUB JOB
 
 --------------------------------------------------------------------------------------------------------------------------------------
-[REQUIREMENTS]
+**[REQUIREMENTS]:**
 
 **IPL Pack:**
 [bob_74](https://forum.fivem.net/t/release-v2-fix-holes-in-the-map-up-to-after-hours/25240)
 
-**Clubaddons / working LCD / Tv Screens & Teleporter for the nightclub: UPDATE**
-[NightclubAddon](https://github.com/SFL-Master/FiveM_NightclubAddon)
+**Clubaddons** working LCD, Tv Screens & Teleporter for the nightclub: **UPDATE**
+**[Nightclub Addon]:**(https://github.com/SFL-Master/FiveM_NightclubAddon)
 
 You can customize the nightclub in the "nightclub.lua" 
 see: [Wiki/After-Hours:-Nightclubs](https://github.com/Bob74/bob74_ipl/wiki/After-Hours:-Nightclubs)
