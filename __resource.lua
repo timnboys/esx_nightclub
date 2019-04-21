@@ -20,8 +20,6 @@ client_scripts {
   'scripts/teleport.lua',
   'scripts/peds.lua'
   ---------------------------
-  
-  
 }
 
 server_scripts {
