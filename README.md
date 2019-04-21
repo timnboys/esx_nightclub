@@ -18,7 +18,7 @@ FXServer ESX NIGHTCLUB JOB
 
 
 
-**UPDATE [Nightclub Addon]:**(https://github.com/SFL-Master/FiveM_NightclubAddon)
+**UPDATE [Nightclub Addon]:** (https://github.com/SFL-Master/FiveM_NightclubAddon)
 
 **Nightclub Addon** working LCD, Tv Screens & Teleporter for the nightclub:
 
