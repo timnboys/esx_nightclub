@@ -16,7 +16,7 @@ client_scripts {
   'scripts/nightclub.lua',
   'scripts/screens.lua',
   'scripts/teleport.lua',
-  'scripts/peds.lua',
+  'scripts/peds.lua'
   ---------------------------
   
   
@@ -27,5 +27,5 @@ server_scripts {
   'locales/en.lua',
   'locales/de.lua',
   'config.lua',
-  'server/main.lua',
+  'server/main.lua'
 }
