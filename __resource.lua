@@ -4,6 +4,8 @@ description 'ESX Nightclub Job & Addons'
 
 version '1.1.0'
 
+dependency 'bob74_ipl'
+
 client_scripts {
   --JOB-- 
   '@es_extended/locale.lua',
