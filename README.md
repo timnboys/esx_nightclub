@@ -49,11 +49,9 @@ You can customize the nightclub in the "nightclub.lua"
 
     Add this in your server.cfg :
     
-
-```
+    
 start esx_nightclub
 
-```
 
     If you want player management you have to set Config.EnablePlayerManagement to true in config.lua You can config VaultManagement & Helicopters with true/false (don't forget to comment the area in the same file)
 
@@ -63,7 +61,6 @@ Here are examples of what you could add:
 
 esx_basicneeds\server\main.lua:
 
-```
 
 ESX.RegisterUsableItem('icetea', function(source)
 
@@ -119,25 +116,23 @@ ESX.RegisterUsableItem('jagerbomb', function(source)
 end)
 
 
-```
 
 **[FEATURES]**
 
-    **[Nightclub Job]**
     
-        -Fully customizable job
-        -Boss, Bartender, Dancer grades
-        -Cloakroom, Vault, Fridge, Vehicles, BossActions
-        -Cloakroom : Dancer clothing with special movement effect, multiple clothes for men or women
-        -Shops (harvesting) for components (alcoholic drinks, appetizers, non-alcoholic drinks)
-        -Crafting menu for Bosses + Bartender (only with the right clothing) : coktails, mix appetizers
-        -Spawning car without dust
-        -Players can miss the crafting part (~10% miss) and lose the components used
-        -Billing menu
-        -Girl are not supplied
+        - Fully customizable job
+        - Boss, Bartender, Dancer grades
+        - Cloakroom, Vault, Fridge, Vehicles, BossActions
+        - Cloakroom : Dancer clothing with special movement effect, multiple clothes for men or women
+        - Shops (harvesting) for components (alcoholic drinks, appetizers, non-alcoholic drinks)
+        - Crafting menu for Bosses + Bartender (only with the right clothing) : coktails, mix appetizers
+        - Spawning car without dust
+        - Players can miss the crafting part (~10% miss) and lose the components used
+        - Billing menu
+        - Girl are not supplied
 
 **[SHOPS (HARVESTING) AREAS]**
 
-    -Alcoholic drinks => (In the Nightclub)
-    -Non-alcoholic drinks => (In the Nightclub)
-    -Appetizers => (In the Nightclub)
+    - Alcoholic drinks => (In the Nightclub)
+    - Non-alcoholic drinks => (In the Nightclub)
+    - Appetizers => (In the Nightclub)
