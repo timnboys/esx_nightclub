@@ -1,17 +1,30 @@
-# esx_nightclub
+# FiveM esx_nightclub
 
-This script is based on the "esx_unicornjob" and has been deprecated accordingly!
+This script is based on the "esx_unicornjob" and has been deprecated accordingly! https://github.com/LuaDeldu/esx_unicornjob
 
-If the unicorn job is already used on the server, the items do not need to be re-imported into the database
+If the unicorn job is already used on the server, the items do NOT need to be re-imported into the database
 
 FXServer ESX NIGHTCLUB JOB
 
+--------------------------------------------------------------------------------------------------------------------------------------
 [REQUIREMENTS]
 
+**IPL Pack:**
+[bob_74](https://forum.fivem.net/t/release-v2-fix-holes-in-the-map-up-to-after-hours/25240)
+
+**Clubaddons / working LCD / Tv Screens & Teleporter for the nightclub: UPDATE**
+[NightclubAddon](https://github.com/SFL-Master/FiveM_NightclubAddon)
+
+You can customize the nightclub in the "nightclub.lua" 
+see: [Wiki/After-Hours:-Nightclubs](https://github.com/Bob74/bob74_ipl/wiki/After-Hours:-Nightclubs)
+
+**Recommended:**
+[NPC Addon](https://github.com/SFL-Master/Peds) **NEW**
+
+----------------------------------------------------------------------------------------------------------------------------------------
     Player management (billing and boss actions)
         esx_society => https://github.com/ESX-Org/esx_society
         esx_billing => https://github.com/ESX-Org/esx_billing
-      Nightclub IPL => https://github.com/FiveM-Scripts/nightclubs (if none exist)
 
     Items effects (hunger, thirst, drunk)
         esx_status => https://github.com/ESX-Org/esx_status
@@ -20,7 +33,7 @@ FXServer ESX NIGHTCLUB JOB
         Items and effects should be added separately in their appropriate files
         You need to add animations + items effects (basicneeds, optionnalneeds) for an optimal experience
 
-[INSTALLATION]
+**[INSTALLATION]**
 
     CD in your resources/[esx] folder
 
@@ -28,7 +41,9 @@ FXServer ESX NIGHTCLUB JOB
 
     Add this in your server.cfg :
 
+```
 start esx_nightclub
+```
 
     If you want player management you have to set Config.EnablePlayerManagement to true in config.lua You can config VaultManagement & Helicopters with true/false (don't forget to comment the area in the same file)
 
@@ -38,6 +53,8 @@ Here are examples of what you could add:
 
 esx_basicneeds\server\main.lua:
 
+
+```
 ESX.RegisterUsableItem('icetea', function(source)
 
     local xPlayer = ESX.GetPlayerFromId(source)
@@ -90,23 +107,24 @@ ESX.RegisterUsableItem('jagerbomb', function(source)
     TriggerClientEvent('esx:showNotification', source, _U('used_jagerbomb'))
 
 end)
+```
 
-[FEATURES]
+**[FEATURES]**
 
-    Nightclub job
-        Fully customizable job
-        Boss, Bartender, Dancer grades
-        Cloakroom, Vault, Fridge, Vehicles, BossActions
-        Cloakroom : Dancer clothing with special movement effect, multiple clothes for men or women
-        Shops (harvesting) for components (alcoholic drinks, appetizers, non-alcoholic drinks)
-        Crafting menu for Bosses + Bartender (only with the right clothing) : coktails, mix appetizers
-        Spawning car without dust
-        Players can miss the crafting part (~10% miss) and lose the components used
-        Billing menu
-        Girl are not supplied
+    **Nightclub job**
+        -Fully customizable job
+        -Boss, Bartender, Dancer grades
+        -Cloakroom, Vault, Fridge, Vehicles, BossActions
+        -Cloakroom : Dancer clothing with special movement effect, multiple clothes for men or women
+        -Shops (harvesting) for components (alcoholic drinks, appetizers, non-alcoholic drinks)
+        -Crafting menu for Bosses + Bartender (only with the right clothing) : coktails, mix appetizers
+        -Spawning car without dust
+        -Players can miss the crafting part (~10% miss) and lose the components used
+        -Billing menu
+        -Girl are not supplied
 
-[SHOPS (HARVESTING) AREAS]
+**[SHOPS (HARVESTING) AREAS]**
 
-    Alcoholic drinks => (In the Nightclub)
-    Non-alcoholic drinks => (In the Nightclub)
-    Appetizers => (In the Nightclub)
+    -Alcoholic drinks => (In the Nightclub)
+    -Non-alcoholic drinks => (In the Nightclub)
+    -Appetizers => (In the Nightclub)
