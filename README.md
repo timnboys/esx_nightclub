@@ -30,7 +30,8 @@ You can customize the nightclub in the "nightclub.lua"
 [NPC Addon](https://github.com/SFL-Master/Peds) **NEW**
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-    Player management (billing and boss actions)
+  
+  Player management (billing and boss actions)
         esx_society => https://github.com/ESX-Org/esx_society
         esx_billing => https://github.com/ESX-Org/esx_billing
 
@@ -59,7 +60,8 @@ start esx_nightclub
 
 Here are examples of what you could add:
 
-esx_basicneeds\server\main.lua:
+
+**esx_basicneeds\server\main.lua:**
 
 
 ESX.RegisterUsableItem('icetea', function(source)
@@ -87,7 +89,7 @@ ESX.RegisterUsableItem('mixapero', function(source)
     
 end)
 
-esx_optionalneeds\server\main.lua:
+**esx_optionalneeds\server\main.lua:**
 
 ESX.RegisterUsableItem('tequila', function(source)
 
